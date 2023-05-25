@@ -36,7 +36,7 @@ $('#ygDitampilkan').addEventListener('change',() => {
 })
 
 // Menambahkan event listener untuk form saat di-submit
-$('#add-form').addEventListener('submit', (e) => {
+$('#add-form').addEventListener('submit', e => {
   e.preventDefault();
   const english = $('#english').value.trim();
   const indonesian = $('#indonesian').value.trim ();
