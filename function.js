@@ -322,7 +322,7 @@ export function tampilkanData(dataArr) {
 	         <td>${add3Dots(data.keterangan,9)}</td>
            <td class="nominal">
               ${rupiah(data.nominal)}
-              <span class="id-transaksi text-[0]">${data.id}</span>
+              <span class="id-transaksi w-0 text-[0]">${data.id}</span>
            </td>
            <td class="detile hidden text-[0]">🔍</td>
         </tr>
