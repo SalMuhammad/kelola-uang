@@ -215,9 +215,9 @@ th, td{
   border-radius: 50%;
   background: teal;
   color: white;
-  padding: 5px 17px;
-  position: fixed;
-  bottom: 35px;
+  padding: 5px 11px;
+  position: absolute;
+  bottom: 5px;
   right: 25px;
   z-index: 5;
 }
@@ -324,4 +324,8 @@ ul a span{
 
 .i-trash{
   display: none;
+}
+
+.wadah{
+  height: 100vh;
 }
