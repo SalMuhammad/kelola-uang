@@ -303,7 +303,7 @@ export function tampilkanData(dataArr) {
             <span class="nominal">${rupiah(dataPerHari[tanggal][pengeluaran])}
             </span>
           </th>
-          <th>detile</th>
+          <th class="hidden">detile</th>
         </tr>
     `;
     dataPerHari[tanggal].pop()
@@ -324,7 +324,7 @@ export function tampilkanData(dataArr) {
               ${rupiah(data.nominal)}
               <span class="id-transaksi">${data.id}</span>
            </td>
-           <td class="detile">🔍</td>
+           <td class="detile hidden text-[0]">🔍</td>
         </tr>
         `;
         })
