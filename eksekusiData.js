@@ -1,4 +1,4 @@
-import {pengecekanSelect, ubahFormatData, pilihBulanIni, sortByTime, tampilkanData,$,munculForm, kategoriKetikaMasuk, kategoriKetikaKeluar, tampilkanwaktuSekarang} from './function.js';
+import {pengecekanSelect, ubahFormatData, pilihBulanIni, sortByTime, tampilkanData,$,munculForm, kategoriKetikaMasuk, kategoriKetikaKeluar,tampilkanwaktuSekarang} from './function.js';
 
 //import {} from './prontEnd.js'
 
@@ -49,7 +49,6 @@ trs.forEach((tr) => {
     
     
     
-    
     munculForm()
     $(".btn").classList.add('edit')
     $(".btn").setAttribute('data-id', id)
@@ -73,9 +72,7 @@ trs.forEach((tr) => {
 
 
 
- 
 if($('.btn') !== null){
-
   $('.bi-trash').addEventListener('click',()=>{
     if (confirm("Apakah anda yakin ingin menghapus data ini?")) {
 	    dataUang.splice($('.btn').getAttribute('data-id'), 1)
@@ -85,6 +82,7 @@ if($('.btn') !== null){
 	  }
   })
 }
+
 
 //console.log(dataUang)
 

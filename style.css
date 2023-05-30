@@ -157,6 +157,7 @@ table th{
 table td {
   text-align: left;
   padding:8px 5px;
+  cursor: pointer;
 }
 
 .row{
@@ -322,10 +323,33 @@ ul a span{
   margin-left: 9px;
 }
 
-.i-trash{
+.i-trash{http://127.0.0.1:3000/index.html
   display: none;
 }
 
 .wadah{
   height: 100vh;
+}
+
+
+
+
+/* bagian side bar */
+.text-oren{
+  color: orangered;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.side-bar .ul-side-bar ul{
+   color: black;
+  display: block;
+}
+
+.side-bar li{
+  padding: 10px 20px;
+}
+.side-bar li i{
+  margin-right: 15px;
+  font-weight: bold;
 }

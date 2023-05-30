@@ -15,7 +15,6 @@ import {dataUang,thisMonthReverse} from'./eksekusiData.js'
 //})
 }*/
 
-
 //fungsi dom
 export function $(varr){
   return document.querySelector(varr)
@@ -25,7 +24,7 @@ export function $all(varr){
 }
 
 //memunculkan form 
-export function munculForm(){
+export function munculForm(ell){
   $('.layoting').style.display = "block"
   $('.trash').style.display = "none"
   tampilkanwaktuSekarang()

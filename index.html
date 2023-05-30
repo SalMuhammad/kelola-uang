@@ -12,17 +12,29 @@
 <body>
  <div class="wadah sm:hidden max-w-sm mx-auto relative">
   <nav>
-    <header class="header flex justify-between">
+    <header class="header flex justify-between relative">
       <figure>
         <span><i class="bi bi-chevron-left"></i></span>
         <span" class="sm:text-sky-600 sm:text-[15px]">Mar</span>
         <span>2023</span>
         <span><i class="bi bi-chevron-right"></i></span>
       </figure>
-      
-      <i class="bi bi-three-dots-vertical"></i>
+
+      <i class="toggle bi bi-three-dots-vertical relative cursor-pointer z-10 font-bold"></i>
+      <div class="side-bar hidden w-1/2 h-96 absolute right-0 top-0 bg-white shadow-lg z-0">
+        <div class="ul-side-bar mt-11">
+          <ul class="capitalize">
+            <li> <i class="bi bi-search text-orange-600"></i> pencarian</li>
+            <li>grafik</li>
+            <li><i class="bi bi-file-earmark-richtext text-orange-600"></i>kategori</li>
+            <li><i class="bi bi-gear text-teal-600"></i>pengaturan</li>
+            <li><i class="bi bi-chat-left-dots text-green-600"></i> usulan anda</li>
+            <li><i class="bi bi-exclamation-circle rotate-180 inline-block text-teal-600"></i> perhatian</li>
+          </ul>
+        </div>
+      </div>
     </header>
-    
+
     <ul class="teing bg-reed-200">
        <a href="">harian</a>
        <a href="">mingguan</a>
@@ -30,7 +42,7 @@
        <a href="">tahunan</a>
     </ul>
     </ul>
- 
+
     <ul class="text-black">
       <a class="pemasukan" >
         <span>pemasukan</span>
@@ -45,6 +57,7 @@
       </a>
     </ul>
   </nav>   
+
  <div class="layoting">	
    <h2 class="caption justify-between">
      <div class="flex">
