@@ -1,5 +1,5 @@
 //import * as say from './function.js';
-import {$, munculForm, closes, tambahData } from './script/function.js';
+import {$, munculForm, closes, tambahData } from './function.js';
 
 
 

@@ -1,4 +1,4 @@
-import {dataUang,thisMonthReverse} from'./script/eksekusiData.js'
+import {dataUang,thisMonthReverse} from'./eksekusiData.js'
 
 
 

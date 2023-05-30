@@ -1,4 +1,4 @@
-import {pengecekanSelect, ubahFormatData, pilihBulanIni, sortByTime, tampilkanData,$,munculForm, kategoriKetikaMasuk, kategoriKetikaKeluar,tampilkanwaktuSekarang} from './script/function.js';
+import {pengecekanSelect, ubahFormatData, pilihBulanIni, sortByTime, tampilkanData,$,munculForm, kategoriKetikaMasuk, kategoriKetikaKeluar,tampilkanwaktuSekarang} from './function.js';
 
 //import {} from './prontEnd.js'
 
