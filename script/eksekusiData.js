@@ -1,4 +1,15 @@
-import {pengecekanSelect, ubahFormatData, pilihBulanIni, sortByTime, tampilkanData,$,munculForm, kategoriKetikaMasuk, kategoriKetikaKeluar,tampilkanwaktuSekarang} from './function.js';
+import {
+  pengecekanSelect,
+  ubahFormatData, 
+  pilihBulanIni,
+  sortByTime, 
+  tampilkanData,
+  $,
+  munculForm, 
+  kategoriKetikaMasuk, 
+  kategoriKetikaKeluar,
+  saldo
+} from './function.js';
 
 //import {} from './prontEnd.js'
 
@@ -8,10 +19,8 @@ pengecekanSelect()
 
 
 
-
 // ubah Array Data uang menjadi di rangkum berdasarkan tahun, bulan dan hari
 const semuaData = ubahFormatData(dataUang)
-
 //memilih bulan sekarang saja untuk di tampilkan
 const thisMonth = pilihBulanIni(semuaData)
 
@@ -83,7 +92,7 @@ if($('.btn') !== null){
   })
 }
 
-
+$('.saldo').innerHTML = saldo
 //console.log(dataUang)
 
 //$('bi-trash').addEventListener('click', ()=>{

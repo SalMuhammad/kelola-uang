@@ -332,3 +332,5 @@ export function tampilkanData(dataArr) {
     }
   }
 }
+
+export let saldo = 0
