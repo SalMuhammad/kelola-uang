@@ -21,8 +21,10 @@ pengecekanSelect()
 
 // ubah Array Data uang menjadi di rangkum berdasarkan tahun, bulan dan hari
 const semuaData = ubahFormatData(dataUang)
+console.log(semuaData);
 //memilih bulan sekarang saja untuk di tampilkan
 const thisMonth = pilihBulanIni(semuaData)
+// console.log(thisMonth);
 
 //membalikan urutan isi bulan sekarang dan mebakikannya
 const thisMonthReverse = sortByTime(thisMonth)
